@@ -1,0 +1,24 @@
+# Editor and OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Local tooling and generated output
+.env
+.env.*
+!.env.example
+.cache/
+.venv/
+__pycache__/
+*.py[cod]
+build/
+dist/
+tmp/
+
+# Runtime data and secrets must never enter the specification repository
+runtime-data/
+secrets/
+*.key
+*.pem

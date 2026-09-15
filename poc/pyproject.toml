@@ -1,0 +1,6 @@
+[project]
+name = "project-synapse-poc"
+version = "0.1.0"
+description = "Software-first proof of concept for Project Synapse"
+requires-python = ">=3.11"
+dependencies = []
